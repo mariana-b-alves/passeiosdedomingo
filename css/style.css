@@ -51,8 +51,12 @@ a{text-decoration: none;}
 }
 
 .icons img{
-	width:60px;
+	width:55px;
 	padding-right:30px;
+}
+
+.icons img:active{
+	color: #b80003; 
 }
 
 .main-trip{
@@ -152,8 +156,7 @@ a{text-decoration: none;}
 }
 
 .categories_table img{
-	width:100px;
-	height:100px;
+	width:90px;
 }
 
 .categories h2{
@@ -330,24 +333,31 @@ a{text-decoration: none;}
 }
 
 .tiago{
-	padding-right:40px;
-	text-align:end;
+	padding-left:40px;
 	padding-bottom:70px;
+	margin-top:70px;
 }
 
 .tiago img{
-	float:right;
-	margin-left:40px;
+	float:left;
+	margin-right:40px;
 }
 
 
 .lina{
 	padding-left:40px;
 	padding-bottom:70px;
+	margin-top:70px;
 }
 
 .lina img{
 	float:left;
+	margin-right:40px;
+
+}
+
+hr{
+	color: rgba(255,255,255,0.7);
 }
 
 /*NEWSLETTER*/
@@ -362,8 +372,9 @@ a{text-decoration: none;}
 }
 
 .text h2{
-	font-size:50px;
+	font-size:55px;
 	padding-bottom:20px;
+	margin-left:20px;
 }
 
 .text p{
@@ -380,7 +391,7 @@ a{text-decoration: none;}
 	border-width:2px;
 	border-color:#535353;
 	border-radius:30px;
-	height:40px;
+	height:50px;
 	width:900px;
 	margin-bottom:25px;
 }
@@ -426,7 +437,7 @@ button{
 .footer{
 	background-color:white;
 	text-align:center;
-	padding-top:20px;
+	padding-top:40px;
 	padding-bottom:20px;
 }
 
