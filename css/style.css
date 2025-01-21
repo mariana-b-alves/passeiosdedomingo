@@ -1,0 +1,443 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*GENERAL STRUCTURE*/
+
+body{
+	margin:0;
+	padding-top:10px;
+	font-family:'Tenorite', sans-serif;
+	font-size:18px;
+   	background-image:url('../img/img_01.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+	background-position:center center;
+}
+
+h1, h2, h3, p{margin:0;}
+a{text-decoration: none;}
+*{box-sizing:border-box;}
+
+
+/*AREA 1*/
+.menu{
+	padding-top:10px;
+	padding-bottom:40px;
+	padding-left:50px;
+	padding-right:50px;
+	display:flex; 
+	flex-direction:row; 
+	justify-content:space-between; 
+	align-items:center;
+}
+
+.menu img{
+	width:150px;
+}
+
+.items a{
+	font-size:16px;
+	margin-left:20px;
+	color:#fff;
+	white-space:nowrap;
+	
+}
+.items a:hover{
+	color: #b80003; 
+}
+
+.icons{
+	padding-right:10px;
+}
+
+.icons img{
+	width:60px;
+	padding-right:30px;
+}
+
+.main-trip{
+	padding-top:10px;
+	padding-bottom:70px;
+	font-weight:lighter;
+	justify-content:center;
+}
+
+.date{
+	color:white;
+	font-size:15px;
+	padding-top:200px;
+	margin-left:40px;
+	margin-top:10px;
+	font-weight:lighter;
+	justify-content:left;
+	display:flex;
+	white-space:nowrap;
+}
+
+.title{
+	color:white;
+	font-size:25px;
+	margin-left:40px;
+	padding-bottom:5px;
+	font-weight:lighter;
+	justify-content:left;
+	display:flex;
+	white-space:nowrap;
+}
+
+.lead{
+	color:white;
+	font-size:20px;
+	margin-left:40px;
+	padding-bottom:5px;
+	font-weight:lighter;
+	justify-content:left;
+	display:flex;
+	white-space:nowrap;
+	
+}
+.description{
+	color:white;
+	font-size:20px;
+	margin-left:40px;
+	padding-right:40px;
+	padding-bottom:5px;
+	font-weight:lighter;
+	justify-content:left;
+	display:flex;
+	
+}
+
+.maintrip-button{
+	background-color:#b80003;
+	border-color:#b80003;
+	display:inline-block; 
+	color:white; 
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px; 
+	padding-right:15px; 
+	margin-top:20px; 
+	margin-left:40px;
+	font-size:20px; 
+	font-weight:bold;
+	border-radius:10px;
+	justify-content:center;
+}
+
+
+/*INFO-TRIP*/
+.info-trip{
+	background-color:#b80003;
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-left:70px;
+}
+
+.categories{
+	color:white;
+	font-size:13px;
+	display: flex;
+	justify-content:center;
+}
+
+.categories_table{
+	width:1080px;
+}
+
+.categories_table td{
+	text-align: center;
+	width: 200px;
+	white-space:nowrap;
+}
+
+.categories_table img{
+	width:100px;
+	height:100px;
+}
+
+.categories h2{
+	text-align:center;
+	justify-content:space-between;
+}
+
+.categories p{
+	text-align:center;
+	justify-content:space-between;
+}
+
+/*POINTS OF INTEREST*/
+
+.points-of-interest{
+	background-color:#d9d9d9;
+	padding-top:100px;
+	padding-bottom:100px;
+	padding-left:20px;
+	padding-right:20px;
+	display:flex; 
+	flex-direction:row; 
+	justify-content:center;
+}
+.poi-title{
+	color:#b80003;
+	padding-bottom:40px;
+	text-align:center;
+	font-size:35px;
+	font-weight:bold;
+}
+.content-box{
+	display:flex;
+	flex-direction:row;
+}
+.interest {
+	padding-left:70px;
+}
+
+.passeios{
+	width:200px;
+	height:180px;
+	position:relative;
+}
+.passeios img{
+	width:200px; 
+	height:180px;
+}
+
+.passeios div{
+	position:absolute; 
+	bottom:0; 
+	right:0; 
+	background-color:#f5cf5d;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:3px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.bottom-box{
+	background-color:rgba(255,255,255,0.5);
+	padding-bottom:25px;
+}
+.address{
+	width:200px;
+	padding-bottom:20px;
+}
+
+.address h2{
+	text-align:center;
+	font-size:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+
+.address p{
+	text-align:center;
+	font-size:15px;
+}
+
+.walking{
+	position: relative;
+}
+
+.walking img{
+	padding-left:30px;
+}
+
+.minutes{
+	position:absolute; 
+	bottom:0; 
+	right: 0;
+	padding-right:20px;
+}
+
+.top{
+	width:200px;
+	height:180px;
+}
+
+
+.desc-box{
+	position:absolute;
+	bottom:0;
+	right:0; 
+	background-color:#f5cf5d
+}
+
+.excursion{
+	padding-left:40px;
+}
+
+.museum{
+	padding-left:40px;
+}
+
+.bottom{
+	width:180px;
+	padding-top:20px;
+	padding-left:20px;
+	background-color:rgba(255,255,255,0.5);
+	background-size:200px;
+	margin-left:20px;
+}
+
+.bottom h2{
+	font-size:20px;
+}
+
+.bottom p{
+	font-size:15px;
+}
+
+.distance h4{
+	font-size:13px;
+	float:right;
+	padding-right:20px;
+}
+.distance img{
+	padding-left:20px;
+}
+
+/*TESTIMONIES*/
+.testimonies{
+	background-color:#ffffff;
+	padding-top:70px;
+	padding-bottom:70px;
+}
+
+.testimonies img{
+	border-radius:50%;
+	width:120px;
+}
+
+.people h2{
+	font-size:25px;
+}
+
+.people h4{
+	font-size:17px;
+}
+
+.duarte{
+	padding-left:40px;
+	padding-bottom:70px;
+}
+
+.duarte img{
+	float:left;
+	margin-right:40px;
+}
+
+.tiago{
+	padding-right:40px;
+	text-align:end;
+	padding-bottom:70px;
+}
+
+.tiago img{
+	float:right;
+	margin-left:40px;
+}
+
+
+.lina{
+	padding-left:40px;
+	padding-bottom:70px;
+}
+
+.lina img{
+	float:left;
+}
+
+/*NEWSLETTER*/
+.newsletter{
+	background-color:#d9d9d9;
+	padding-top:100px;
+	padding-bottom:100px;
+	white-space:nowrap;
+}
+.text{
+	text-align:center;
+}
+
+.text h2{
+	font-size:50px;
+	padding-bottom:20px;
+}
+
+.text p{
+	font-size:30px;
+}
+
+.sub{
+	padding-top:20px;
+	padding-bottom:30px;
+	flex-direction:column;
+}
+
+.input-elements{
+	border-width:2px;
+	border-color:#535353;
+	border-radius:30px;
+	height:40px;
+	width:900px;
+	margin-bottom:25px;
+}
+
+.sub input{
+	padding-left:10px;
+	font-size:15px;
+	font-family:Tenorite, sans-serif;
+}
+
+.button-container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+button{
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:20px;
+	padding-right:20px;
+	background-color:#f5cf5d;
+	border-color:#f5cf5d;
+	width:250px;
+	border-radius:10px;
+	font-weight:bolder;
+	font-size:20px;
+}
+/*FOOTER*/
+.logos{
+	padding-left:20px;
+	display:inline-flex;
+	flex-direction:row;
+	float:left;
+}
+
+.logos img{
+	width:90px;
+	padding-left:10px;
+}
+
+.footer{
+	background-color:white;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.socials{
+	padding-right:20px;
+	display:inline-flex;
+	flex-direction:row;
+	float:right;
+}
+
+.socials img{
+	width:40px;
+	padding-left:10px;
+}
