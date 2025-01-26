@@ -129,6 +129,12 @@ a{text-decoration: none;}
 	justify-content:center;
 }
 
+.maintrip-button:active{
+	background-color:#db4042;
+	border-color: #db4042;
+	width:270px;
+}
+
 
 /*INFO-TRIP*/
 .info-trip{
@@ -246,6 +252,7 @@ a{text-decoration: none;}
 
 .walking img{
 	padding-left:30px;
+	width:70px;
 }
 
 .minutes{
@@ -420,6 +427,12 @@ button{
 	border-radius:10px;
 	font-weight:bolder;
 	font-size:20px;
+}
+
+button:active{
+	background-color: #f0dda3;
+	border-color:#f0dda3;
+	width:290px;
 }
 /*FOOTER*/
 .logos{
